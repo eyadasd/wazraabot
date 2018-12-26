@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "+";
-var adminprefix = '+'
+var prefix = "#";
+var adminprefix = '#'
 
 client.on("message", async message => {
         if(!message.channel.guild) return;
